@@ -104,6 +104,9 @@
   .card-orange .icon { background: rgba(232,113,10,0.12); }
   .card-purple .icon { background: rgba(124,58,237,0.12); }
   .card-pink   .icon { background: rgba(233,30,99,0.12); }
+.card-red  { --accent: #d32f2f; }
+.card-red::before  { background: var(--accent); opacity: 0; }
+.card-red   .icon { background: rgba(211,47,47,0.12); }
   .card-teal   .icon { background: rgba(0,137,123,0.12); }
 
   .stats-bar {
@@ -133,7 +136,7 @@
   <h1><span class="flag-stripe"></span> 意大利语学习总导航</h1>
   <p class="subtitle">Corso di italiano &mdash; <i>零基础到实战</i></p>
   <div class="stats-bar">
-    <div class="stat"><div class="num" style="color:#009246;">6</div><div class="label">学习专题</div></div>
+    <div class="stat"><div class="num" style="color:#009246;">7</div><div class="label">学习专题</div></div>
     <div class="stat"><div class="num" style="color:#1a73e8;">1000+</div><div class="label">实用口语句</div></div>
     <div class="stat"><div class="num" style="color:#e8710a;">24</div><div class="label">语法课时</div></div>
   </div>
@@ -201,7 +204,18 @@
       </div>
     </a>
 
-    <!-- 美甲工具 -->
+    
+    <!-- 动词 -->
+    <a class="hub-card card-red" href="https://realrentao.github.io/italiano-verbi/" target="_blank">
+      <div class="icon">&#128220;</div>
+      <div class="name">意大利语动词</div>
+      <div class="desc">完整变位表查询 · 助动词详解 · 情态动词用法 · 近义词辨析</div>
+      <div class="meta">
+        <span class="tag">&#128260; 变位查询</span>
+        <span class="tag">&#128218; 用法详解</span>
+      </div>
+    </a>
+<!-- 美甲工具 -->
     <a class="hub-card card-teal" href="https://realrentao.github.io/italiano-manicure/" target="_blank">
       <div class="icon">🧰</div>
       <div class="name">美甲工具与术语</div>
